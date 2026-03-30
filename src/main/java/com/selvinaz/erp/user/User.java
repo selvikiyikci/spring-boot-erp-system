@@ -1,4 +1,4 @@
-package com.selvinaz.userapi;
+package com.selvinaz.erp.user;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.selvinaz.userapi;
+package com.selvinaz.erp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.selvinaz.userapi;
+package com.selvinaz.erp.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

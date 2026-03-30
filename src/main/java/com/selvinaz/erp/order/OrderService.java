@@ -1,5 +1,7 @@
-package com.selvinaz.userapi;
+package com.selvinaz.erp.order;
 
+import com.selvinaz.erp.product.Product;
+import com.selvinaz.erp.product.ProductRepository;
 import org.springframework.stereotype.Service;
 
 @Service

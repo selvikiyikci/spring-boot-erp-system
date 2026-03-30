@@ -1,5 +1,6 @@
-package com.selvinaz.userapi;
+package com.selvinaz.erp.order;
 
+import com.selvinaz.erp.product.Product;
 import jakarta.persistence.*;
 
 @Entity
