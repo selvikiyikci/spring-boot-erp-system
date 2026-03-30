@@ -10,15 +10,18 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long productId;
+    @ManyToOne
+    @JoinColumn(name = "product_id")
+    private Product product;
+
     private Integer quantity;
 
     public Order() {
     }
 
-    public Order(Long id, Long productId, Integer quantity) {
+    public Order(Long id, Product product, Integer quantity) {
         this.id = id;
-        this.productId = productId;
+        this.product = product;
         this.quantity = quantity;
     }
 
@@ -26,8 +29,8 @@ public class Order {
         return id;
     }
 
-    public Long getProductId() {
-        return productId;
+    public Product getProduct() {
+        return product;
     }
 
     public Integer getQuantity() {

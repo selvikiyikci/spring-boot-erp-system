@@ -16,6 +16,10 @@ public class Product {
     private Double price;
     private Integer stockQuantity;
 
+    public void setStockQuantity(Integer stockQuantity) {
+        this.stockQuantity = stockQuantity;
+    }
+
     public Product() {
     }
 
